@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,9 +14,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <!-- css local -->
-    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <style>
+        a{
+            text-decoration: none;
+            color: #126DFF;
+        }
+        a:hover{
+            color: #1DEFD6;
+        }
+    </style>
 </head>
+
 <body>
-    hola mundo
+    <div style="display: flex;flex-direction: row;height: 100vh;margin: 0;padding: 0;">
+        <div style="display: flex;flex-direction: column;gap: 20px;
+        width: 100%;height: auto;background-color: #ffffff;padding: 2rem 4rem;">
+            <div style="display: flex;justify-content: space-between;align-items: center;">
+                <img src="../assets/img/logo.png" style="width: 80px;height: 80px;">
+                <span style="font-size: 20px;font-weight: 700;">GRUPO CONSIGUEVENTAS INVERSIONES E.I.R.L.</span>
+            </div>
+            <div style="display: flex;justify-content: center;gap: 200px;
+        align-items: center;background-color: #F0F0F0;padding: 10rem 0;margin: 0 15rem;">
+                <div style="display: flex;flex-direction: column;">
+                    <img src="../assets/img/administrador6.png" alt="">
+                </div>              
+                <div style="display: flex;flex-direction: column; gap: 20px;max-width: 300px;">
+                    <span style="font-size: 22px;font-weight: 700;">Comienza a diseñar tu sitio </span>
+                    <a href="categoria.html"> Usa Una Plantilla -></a>
+                    <span style="color: #5a5a5a;font-size: 14px;"> Personaliza una plantilla creada por un diseñador. </span>
+                    <a href="SitioPersonalizado.html"> Obten un sitio Personalizado -> </a>
+                    <span style="color: #5a5a5a;font-size: 14px;"> Obten ayuda personal de parte del staff técnico para diseñar tu página. </span>
+                </div>              
+                
+            </div>
+            <div style="display: flex;justify-content: space-between;align-items: center;">
+                <button onclick="back()" style="background-color: #000;border-radius: 10px;margin-left: 50px;">
+                    <i class="fa fa-arrow-left" style="color: #fff;font-size: 18px;padding: 5px 15px;" aria-hidden="true"></i></button>
+                <span
+                    style="font-size: 22px;margin-right: 50px;">5</span></div>
+        </div>
+    </div>
 </body>
+<script>
+    function back() {
+
+        window.location.href = "panel_administracion5.html";
+
+    }
+</script>
+
 </html>

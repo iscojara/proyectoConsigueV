@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
     <!-- css local -->
     <link rel="stylesheet" href="../css/general.css">
 </head>
+
 <body>
     <div style="display: flex;flex-direction: row;height: 100vh;margin: 0;padding: 0;">
         <div style="display: flex;flex-direction: column;width: 20%;gap: 20px;
@@ -22,40 +24,62 @@
             <div style="width: 100%;display: flex;
             justify-content: center;align-items: center;margin-top: 50px;
             ">
-                <img src="../assets/img/user_inicio.png" 
-                style="width: 200px;margin-bottom: auto;">
+                <img src="../assets/img/user_inicio.png" style="width: 200px;margin-bottom: auto;">
             </div>
             <div>
                 <span style="color: #ffffff; font-size: 22px;font-weight: 600;"> Administrador </span>
             </div>
-            <div style="background-color: #2DC0C7;width: 100%;display: flex;justify-content: center;align-items: center;">
+            <div
+                style="background-color: #2DC0C7;width: 100%;display: flex;justify-content: center;align-items: center;">
                 <i class="fa fa-home" style="color: #ffffff; font-size: 50px"></i>
-                <span style="color: #ffffff; font-size: 18px;font-weight: 400;text-align: center;padding: 2rem;">Inicio</span>
+                <span
+                    style="color: #ffffff; font-size: 18px;font-weight: 400;text-align: center;padding: 2rem;">Inicio</span>
             </div>
             <div style="background-color: #000000;width: 100%;display: flex;flex-direction: column;border-width: 1px;
             border-style: solid;
             border-color: #ffffff;">
-                <span style="color: #ffffff; font-size: 18px;font-weight: 400;text-align: center;padding: 2rem;">Soporte Tecnico</span>
+                <span style="color: #ffffff; font-size: 18px;font-weight: 400;text-align: center;padding: 2rem;">Soporte
+                    Tecnico</span>
             </div>
             <div style="background-color: #000000;width: 100%;display: flex;flex-direction: column;border-width: 1px;
             border-style: solid;
             border-color: #ffffff;">
-                <span style="color: #ffffff; font-size: 18px;font-weight: 400;text-align: center;padding: 2rem;">Configuración de Perfil</span>
+                <span
+                    style="color: #ffffff; font-size: 18px;font-weight: 400;text-align: center;padding: 2rem;">Configuración
+                    de Perfil</span>
             </div>
         </div>
-        <div style="display: flex;flex-direction: column;
+        <div style="display: flex;flex-direction: column;gap: 20px;
         width: 80%;height: auto;background-color: #ffffff;padding: 2rem 4rem;">
-        <div style="display: flex;justify-content: space-between;">
-            <div>
-                <i class="fa fa-search" style="margin-right: 20px;"></i>
-                <input type="text" placeholder="Search" style="background:#F0F0F0;padding: 5px 20px;">
+            <div style="display: flex;justify-content: space-between;margin-bottom: 40px;margin-top: 20px;">
+                <div>
+                    <i class="fa fa-search" style="margin-right: 20px;"></i>
+                    <input type="text" placeholder="Search" style="background:#F0F0F0;padding: 5px 20px;border: none;">
+                </div>
+                <span style="font-size: 20px;font-weight: 700;">GRUPO CONSIGUEVENTAS INVERSIONES E.I.R.L.</span>
             </div>
-            <span style="font-size: 20px;font-weight: 700;">GRUPO CONSIGUEVENTAS INVERSIONES E.I.R.L.</span>
-        </div>
-        <div>
-            
-        </div>
+            <div style="display: flex;flex-direction: column;justify-content: center;gap: 50px;
+        align-items: center;background-color: #F0F0F0;padding: 8rem 0;">
+                <span style="font-size: 72px;font-weight: bold;text-align: center;max-width: 1000px;"> Te ayudamos a dar
+                    vida a tu página ideal</span>
+                <span style="font-size: 22px;font-weight: 400;text-align: center;max-width: 800px;
+            letter-spacing: 2px;">Descubre todas las funciones que necesitas para crear el sitio web ideal para ti.
+                </span>
+                <button onclick="next()"
+                    style="border: none;border-radius: 25px;background-color: #126DFF;color: #ffffff;padding: 1rem 2.5rem;font-size: 22px;">Empieza
+                    ahora</button>
+            </div>
+            <div style="display: flex;justify-content: end;align-items: center;"><span
+                    style="font-size: 22px;margin-right: 50px;">1</span></div>
         </div>
     </div>
 </body>
+<script>
+    function next() {
+
+        window.location.href = "panel_administracion2.html";
+
+    }
+</script>
+
 </html>
