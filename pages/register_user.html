@@ -24,7 +24,7 @@
         justify-content: center;align-items: center;gap: 30px; margin: auto;height: 80vh;">
         <div style="display: flex;flex-direction: column;gap: 20px;">
             <span style="text-align: center; font-weight: 700;font-size: 20px;">Registro de usuario nuevo</span>
-            <img src="../images/register_user.png" style="width: 225px;height: 225px;">
+            <img src="../assets/img/register_user.png" style="width: 225px;height: 225px;">
         </div>
         <div style="display: flex;flex-direction: column;
         gap: 40px;justify-content: center;align-items: center;">
@@ -50,10 +50,17 @@
             </div>
         </div>
         <div style="display: flex;flex-direction: column;gap: 50px;margin-top: 20px;">
-            <button style="padding: 1rem 10rem; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);background: #F9BC1F;border: none; color: #ffffff;"
+            <button style="padding: 1rem 10rem; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            background: #30BFC7;border: none; color: #ffffff;font-size: 14px;" onclick="registrar()"
             > Registrar </button>
         </div>
     </div>
+<script>
+    function registrar() {
+        
+            window.location.href = "login.html";
+    }
+</script>
 </body>
 
 </html>
